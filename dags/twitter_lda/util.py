@@ -29,9 +29,10 @@ def extract_tweet_data(tweepy_obj, query):
 
     return {
         'user_id': tweepy_obj.user.screen_name,
+        'created_at': tweepy_obj.created_at,
         'name': tweepy_obj.user.name,
         'location': tweepy_obj.user.location,
         'text': tweepy_obj.text,
-        'query': query
+        'query': query,
     }
 
