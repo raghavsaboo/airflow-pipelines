@@ -1,0 +1,13 @@
+redis==2.10.6
+requests_oauthlib==0.8.0
+simplejson==3.13.2
+sqlalchemy==1.2.15
+scikit-learn==0.20.0
+scipy==1.0.0
+pandas==0.22.0
+matplotlib==2.1.2
+seaborn==0.8.1
+numpy==1.14.1
+tweepy==3.7.0
+pyldavis==2.1.2
+psycopg2==2.7.6
